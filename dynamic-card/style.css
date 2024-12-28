@@ -1,1 +1,50 @@
-ECHO is on.
+/* reset code starts here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Design parts starts here */
+
+.posts {
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.post {
+    width: 23%;
+    margin: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    transition: 0.3s ease-out;
+}
+
+.post:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive parts is here */
+@media screen and (max-width:992px){
+   .post {
+    width: 48%;
+   }
+}
+@media screen and (max-width:576px){
+   .post {
+    width: 100%;
+   }
+   h1 {
+    font-size: 2rem;
+   }
+}
