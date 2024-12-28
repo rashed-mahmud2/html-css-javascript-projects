@@ -5,3 +5,5 @@ ami jodi javascript theke kono result dekhye citam tahole amake ki korte hoto co
 so, we can say that function is used for showing result. 
 mane bepar ta holo erokom je function er kaj holo code ta kaj kore ki na. function maneo holo kaj kora. bah bujhe gele ki je moja lage vai. 
 alhamdulillah.
+
+### complete making dyanically post cards
