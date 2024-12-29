@@ -1,1 +1,32 @@
-ECHO is on.
+/* reset code */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 1rem;
+}
+
+select {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+main {
+    background-color: aqua;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+p {
+    margin-block: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
