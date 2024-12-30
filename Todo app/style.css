@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Generall style */
+.container {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.card {
+    background-color: #222;
+    color: whitesmoke;
+    padding: 1rem;
+    min-height: 80vh;
+    width: 50%;
+    overflow: auto;
+    border-radius: 0.6rem;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 80%;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    background-color: orange;
+    color: aliceblue;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 19%;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #222;
+}
+
+.btn:active {
+    background-color: #bbb;
+    color: #000;
+    transform: scale(1.001);
+}
+
+/*  style for javascript created element */
+#deleteButton {
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.4rem 1rem;
+    background-color: orange;
+    color: aliceblue;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 19%;
+    display: grid;
+    place-content: center;
+}
+
+#deleteButton:hover {
+    background-color: white;
+    color: #222;
+}
+
+.li-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-block: 1rem;
+    transition: 0.2s;
+}
+
+.li-style:hover {
+    background-color: #111;
+}
+
+.bg-success {
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    color: #222;
+    background-color: #93fa93;
+    border-left: 6px solid #02a002c6;
+}
+
+.bg-danger {
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    color: #222;
+    background-color: #dc9393;
+    border-left: 6px solid #f44336;
+}
+
+
+/* media quaries */
+
+/* for mediam device */
+@media screen and (max-width:992px){
+    .card {
+        width: 60%;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    .btn {
+       width: 27%;
+    }
+}
+
+
+/* for small device */
+@media screen and (max-width:576px){
+    body {
+        font-size: 70%;
+    }
+    .card {
+        width: 70%;
+    }
+
+    input {
+        width: 65%;
+    }
+
+
+    .btn {
+       width: 32%;
+    }
+}
+
