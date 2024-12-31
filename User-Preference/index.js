@@ -64,3 +64,4 @@ const clearLocalStorage = () => {
 selectFontSize.addEventListener("change", changeFontSize);
 selectBgColor.addEventListener("change", changeBgcolor);
 resetButton.addEventListener("click", clearLocalStorage);
+
