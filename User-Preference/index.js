@@ -15,7 +15,7 @@ const setValues = (getFontSize, getBgColor) => {
 
 
 //load LocalStorage value
-const initaiSetup = () => {
+const initailSetup = () => {
     const getFontSize =  localStorage.getItem("fontSize");
     const getBgColor = localStorage.getItem("BgColor");
 
@@ -37,7 +37,7 @@ const initaiSetup = () => {
 
 }
 
-initaiSetup();
+initailSetup();
 
 // changeFontSize 
 const changeFontSize = (event) => {
